@@ -1,0 +1,15 @@
+
+@media (min-width: 768px) {
+    /* Add larger screen styles here */
+
+    body {
+        font-size: 18px; /* Adjust font size for larger screens */
+    }
+
+    main {
+        max-width: 1000px; /* Adjust maximum width for larger screens */
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+}
