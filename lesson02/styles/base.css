@@ -42,11 +42,7 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-}
+
 main {
     display: flex;
     flex-direction: column;
@@ -55,8 +51,34 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Add this CSS for navigation */
+nav {
+    background-color: #004B87;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Keep the rest of your CSS as it is */
+
 @media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
     nav ul {
-        display: none; 
+        display: block;
+        text-align: center;
     }
 }
