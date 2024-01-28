@@ -1,15 +1,13 @@
-
 @media (min-width: 768px) {
-    /* Add larger screen styles here */
+    /* Larger screen styles */
 
     body {
-        font-size: 18px; /* Adjust font size for larger screens */
+        font-size: 18px;
     }
 
     main {
-        max-width: 1000px; /* Adjust maximum width for larger screens */
+        max-width: 1000px;
         margin: 20px auto;
         padding: 20px;
     }
-
 }
