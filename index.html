@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="styles/normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jorge Hernandez - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development">
     <meta name="author" content="Jorge Hernandez">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <style>
         .smaller-image {
             width: 50%;
@@ -21,8 +23,12 @@
     <header>
         <img src="images/yo.png" alt="Profile Image of Jorge Hernandez" class="smaller-image">
         <h1>Jorge Hernandez</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
-
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -49,9 +55,21 @@
             <!-- Information about the weather, number of visits, etc. -->
         </section>
     </main>
+    <!-- Google Map -->
+<p style="text-align: center;"><iframe
+width="71%"
+height="300"
+frameborder="0"
+scrolling="yes"
+marginheight="0"
+marginwidth="0"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d334018.2643950524!2d-96.96490359815727!3d32.989748999552695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1dcb467ac377%3A0x69e4fde19d3fa71d!2sCarrollton%2C%20TX!5e0!3m2!1sen!2sus!4v1644787614205!5m2!1sen!2sus"
+allowfullscreen
+></iframe>
+</p>
 
     <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear());</script> Jorge Hernandez, Texas</p>
+        <p>&copy; <span id="currentYear"></span> Jorge Hernandez, Texas</p>
         <p id="lastModified">
             <!-- Last modified date will be populated with JavaScript -->
         </p>
