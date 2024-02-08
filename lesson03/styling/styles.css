@@ -210,3 +210,39 @@ footer {
         display: none; 
     }
 }
+
+.wireframe {
+    margin-top: 20px;
+}
+
+.wireframe h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--navy-blue);
+}
+
+.wireframe-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.wireframe-image {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wireframe-image p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--navy-blue);
+}
+
+.wireframe-image img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--navy-blue);
+    border-radius: 8px;
+}
