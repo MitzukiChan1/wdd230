@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styling/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/North-Dallas-Chamber-Favicon-T.png" alt="Chamber Logo" class="logo">
+            <nav class="navigation-menu">
+                <button class="menu-toggle">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="images/dallas.jpg" alt="Dallas, Tx" class="dallas-image">
+    </header>
+    <main>
+        
+        <section class="hero">
+            <h1>Welcome to the Dallas Chamber of Commerce</h1>
+            <p>Connecting businesses, promoting growth, and enhancing our community.</p>
+        </section>
+
+        <section class="spotlights">
+            <h2>Purpose</h2>
+            <p>The Dallas Chamber of Commerce, established in the heart of Texas, serves as a beacon of growth, opportunity, and innovation for the local business community. With over a century of dedication, the Chamber has been instrumental in shaping Dallas into a bustling hub of commerce, culture, and connectivity. Our mission is to empower our members through unparalleled networking events, cutting-edge educational programs, and advocacy that champions the interests of businesses both big and small. From the vibrant streets of Downtown Dallas to the thriving suburbs, the Chamber is committed to fostering an environment where businesses flourish and community ties strengthen. Join us as we continue to propel Dallas towards a prosperous future, anchored in the values of collaboration, integrity, and resilience.</p> 
+        </section>
+
+        <section class="about-community">
+            <h2>Scenarios</h2>
+            <p>What events will the chamber be holding this month that promote business-to-business networking? The website should feature an easily accessible events calendar dedicated to showcasing upcoming networking opportunities. This section would include detailed listings of all events, with filters for event types such as networking mixers, industry-specific seminars, workshops, and webinars.</p>
+            <p>Where can I find contact information for the chamber's board of directors? To address this query, a dedicated "Directory" section should be developed, containing profiles of all board members and key chamber staff.</p>
+            <p>What has been the population growth in the area? The region has experienced significant population growth over the past decade, reflecting its appeal as a vibrant place to live, work, and do business. As of the latest reports, the area's population has grown by approximately 15% since the last census. This growth is attributed to a combination of factors, including a robust local economy, an increase in job opportunities, and the high quality of life offered in the area.</p>
+
+            
+        </section>
+
+        <section class="color-schema">
+            <h3>Color Schema</h3>
+            <p>Primary Colors</p>
+            <p>- Navy Blue: #003366</p>
+            <p>- Bright Blue: #007bff</p>
+            <p>Secondary Colors</p>
+            <p>- Warm Gray: #9C9C9C</p>
+            <p>- Silver: #C0C0C0</p>
+        </section>
+
+        <section class="typography">
+            <h4>Typography</h4>
+            <p>Primary Font: Montserrat</p>
+            <p>Secondary Font: Lato</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dallas Chamber of Commerce. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('.navigation');
+
+            toggleButton.addEventListener('click', function () {
+                const isDisplayed = nav.style.display === 'block';
+                nav.style.display = isDisplayed ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
