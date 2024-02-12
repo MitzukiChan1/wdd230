@@ -1,4 +1,4 @@
-/* medium.css */
+
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -11,7 +11,7 @@
     }
 
     .navigation {
-        display: none; /* Hidden by default, shown when menu-toggle is clicked */
+        display: none; 
     }
 
     .navigation-menu ul {
