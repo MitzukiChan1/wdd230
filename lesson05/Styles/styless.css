@@ -45,6 +45,7 @@ li {
     padding: 10px;
     border-radius: 4px;
 }
+
 button.delete {
     background-color: #f44336;
     color: white;
@@ -52,7 +53,8 @@ button.delete {
     border-radius: 5px;
     cursor: pointer;
     float: right;
-    font-size: 12px; 
+    font-size: 12px;
+    padding: 4px;
 }
 
 button.delete:hover {
