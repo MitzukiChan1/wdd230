@@ -1,0 +1,21 @@
+/* larger.css */
+@media screen and (min-width: 769px) {
+    .header-content, .navigation-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation-menu ul li {
+        margin-left: 20px;
+    }
+
+    .navigation-menu ul li a {
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .hero, main, footer {
+        text-align: left;
+    }
+}

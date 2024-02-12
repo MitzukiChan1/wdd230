@@ -1,0 +1,28 @@
+/* medium.css */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        background-color: transparent;
+        color: var(--white);
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .navigation {
+        display: none; /* Hidden by default, shown when menu-toggle is clicked */
+    }
+
+    .navigation-menu ul {
+        flex-direction: column;
+    }
+
+    .navigation-menu ul li a {
+        color: var(--white);
+    }
+
+    header, .hero, main, footer {
+        padding: 10px;
+    }
+}
