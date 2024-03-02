@@ -1,7 +1,7 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
     background-color: #005A9C; 
     color: white;
@@ -24,13 +24,13 @@ header {
     position: relative;
 }
 
-/* Navigation */
+
 nav {
     background-color: #004B87; 
     color: white;
     padding: 0.5rem 0;
     text-align: center;
-    padding-top: 60px; /* Adjusted padding to ensure nav items are not blocked */
+    padding-top: 60px; 
 }
 
 nav ul {
@@ -42,10 +42,10 @@ nav ul {
 nav a {
     color: #ffc107; 
     text-decoration: none;
-    padding: 0 15px; /* Added for better spacing between nav items */
+    padding: 0 15px; 
 }
 
-/* Main Content */
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -54,7 +54,7 @@ main {
     border: 1px solid #ddd;
 }
 
-/* Footer */
+
 footer {
     background-color: #005A9C; 
     color: white;
@@ -70,13 +70,13 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Responsive Images */
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Cards */
+
 .card {
     background: white;
     margin-bottom: 20px;
@@ -85,7 +85,7 @@ img {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Enhancements for larger screens */
+
 @media (min-width: 768px) {
     .hamburger {
         display: none;
@@ -100,7 +100,7 @@ img {
     }
 
     nav {
-        padding-top: 140px; /* Increased padding to accommodate the adjusted header image position */
+        padding-top: 140px; 
     }
 
     nav ul {

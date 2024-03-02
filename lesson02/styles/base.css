@@ -52,7 +52,7 @@ img {
     height: auto;
 }
 
-/* Add this CSS for navigation */
+
 nav {
     background-color: #004B87;
     color: white;
@@ -71,7 +71,7 @@ nav a {
     text-decoration: none;
 }
 
-/* Keep the rest of your CSS as it is */
+
 
 @media (max-width: 600px) {
     body {
