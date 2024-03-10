@@ -15,3 +15,20 @@ function toggleMenu() {
 
 setCurrentYear();
 setLastModifiedDate();
+function toggleMenu() {
+    var nav = document.querySelector('.navigation');
+    nav.classList.toggle('show');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.navigation-menu');
+
+    toggleButton.addEventListener('click', function () {
+        nav.classList.toggle('show');
+    });
+});
+
+
+setCurrentYear();
+setLastModifiedDate();

@@ -13,3 +13,12 @@ var windSpeed = parseFloat(document.getElementById('windSpeed').textContent);
 var windChill = calculateWindChill(temperature, windSpeed);
 
 document.getElementById('windChill').textContent = windChill;
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.navigation');
+
+    toggleButton.addEventListener('click', function () {
+        nav.classList.toggle('show');
+    });
+});
