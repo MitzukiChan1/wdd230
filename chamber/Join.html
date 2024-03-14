@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 769px)">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/North-Dallas-Chamber-Favicon-T.webp" alt="Chamber Logo" class="logo">
+            <nav class="navigation-menu">
+                <button class="menu-toggle">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="images/dallas.jpg" alt="Dallas, Tx" class="dallas-image">
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Join the Chamber</h2>
+            <form action="thankyou.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+
+                <label for="position">Title or Position:</label>
+                <input type="text" id="position" name="position" required pattern="[a-zA-Z\s-]{7,}"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="businessName">Business/Organization Name:</label>
+                <input type="text" id="businessName" name="businessName" required><br><br>
+
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel">
+                    <option value="NP">Non-Profit (No Fee)</option>
+                    <option value="Bronze">Bronze</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Gold">Gold</option>
+                </select><br><br>
+
+                <label for="description">Business Description:</label>
+                <textarea id="description" name="description"></textarea><br><br>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="membership-benefits">
+            <h2>Membership Benefits</h2>
+            <p>Non-Profit: Free membership with access to networking events and community resources.</p>
+            <p>Bronze: Basic membership with added event discounts and advertising opportunities.</p>
+            <p>Silver: Enhanced membership with additional marketing and promotion benefits.</p>
+            <p>Gold: Premium membership with exclusive access to high-profile events and VIP services.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dallas Chamber of Commerce. All rights reserved.</p>
+    </footer>
+    <script src="scripts/windchill.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('.navigation');
+
+            toggleButton.addEventListener('click', function () {
+                const isDisplayed = nav.style.display === 'block';
+                nav.style.display = isDisplayed ? 'none' : 'block';
+            });
+
+            // Set the value of the hidden timestamp field
+            document.getElementById('timestamp').value = Date.now();
+        });
+    </script>
+</body>
+</html>
