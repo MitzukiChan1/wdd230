@@ -1,0 +1,24 @@
+{
+    "members": [
+      {
+        "name": "Company 1",
+        "address": "123 Main St, Dallas, TX",
+        "phone": "555-555-5555",
+        "website": "https://www.company1.com",
+        "image": "company1.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company 2",
+        "address": "456 Elm St, Dallas, TX",
+        "phone": "555-555-5555",
+        "website": "https://www.company2.com",
+        "image": "company2.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      
+    ]
+  }
+  
