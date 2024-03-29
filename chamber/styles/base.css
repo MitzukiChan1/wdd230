@@ -197,10 +197,10 @@ footer {
     }
 }
 
-/* Additional styles for discover.html */
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr auto; /* Right column for images */
+    grid-template-columns: 1fr auto; 
     gap: 20px;
     padding: 20px;
 }
