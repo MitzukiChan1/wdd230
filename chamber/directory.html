@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dallas Chamber of Commerce - Directory</title>
-    <meta name="description" content="The Dallas Chamber of Commerce directory of members.">
-    <meta name="author" content="Dallas Chamber of Commerce">
-    <link rel="icon" href="images/North-Dallas-Chamber-Favicon-T.webp" type="image/webp">
-    <meta property="og:title" content="Dallas Chamber of Commerce - Directory">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2020/01/dll-open-graph-1.jpg">
-    <meta property="og:url" content="https://www.dallaschamberofcommerce.com/directory.html">
+    <title>Directory - Dallas Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 769px)">
 </head>
-
 <body>
     <header>
         <div class="header-content">
@@ -33,25 +24,20 @@
         </div>
         <img src="images/dallas.jpg" alt="Dallas, Tx" class="dallas-image">
     </header>
+    <nav>
+        <!-- Navigation content here -->
+    </nav>
     <main>
-        <div id="links-container"></div>
+        <h1>Member Directory</h1>
+        <div id="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        <div id="members-container"></div>
     </main>
     <footer>
-        <p>&copy; 2024 Dallas Chamber of Commerce. All rights reserved.</p>
+        
     </footer>
-    <script src="scripts/windchill.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const toggleButton = document.querySelector('.menu-toggle');
-            const nav = document.querySelector('.navigation');
-
-            toggleButton.addEventListener('click', function () {
-                const isDisplayed = nav.style.display === 'block';
-                nav.style.display = isDisplayed ? 'none' : 'block';
-            });
-        });
-    </script>
-    <script src="scripts/links.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
-
 </html>

@@ -1,24 +1,67 @@
 {
-    "members": [
-      {
-        "name": "Company 1",
-        "address": "123 Main St, Dallas, TX",
-        "phone": "555-555-5555",
-        "website": "https://www.company1.com",
-        "image": "company1.jpg",
-        "membershipLevel": "Gold",
-        "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "name": "Company 2",
-        "address": "456 Elm St, Dallas, TX",
-        "phone": "555-555-5555",
-        "website": "https://www.company2.com",
-        "image": "company2.jpg",
-        "membershipLevel": "Silver",
-        "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      
-    ]
-  }
-  
+  "members": [
+    {
+      "name": "Company A",
+      "address": "123 Main St, Dallas, TX",
+      "phone": "(123) 456-7890",
+      "website": "https://www.companya.com",
+      "image": "companya.jpg",
+      "membership_level": "Gold",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "name": "Company B",
+      "address": "456 Elm St, Dallas, TX",
+      "phone": "(456) 789-0123",
+      "website": "https://www.companyb.com",
+      "image": "companyb.jpg",
+      "membership_level": "Silver",
+      "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Company C",
+      "address": "789 Oak St, Dallas, TX",
+      "phone": "(789) 012-3456",
+      "website": "https://www.companyc.com",
+      "image": "companyc.jpg",
+      "membership_level": "Bronze",
+      "other_info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Company D",
+      "address": "321 Pine St, Dallas, TX",
+      "phone": "(321) 654-9870",
+      "website": "https://www.companyd.com",
+      "image": "companyd.jpg",
+      "membership_level": "Gold",
+      "other_info": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "name": "Company E",
+      "address": "654 Maple St, Dallas, TX",
+      "phone": "(654) 987-0123",
+      "website": "https://www.companye.com",
+      "image": "companye.jpg",
+      "membership_level": "Silver",
+      "other_info": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Company F",
+      "address": "987 Cedar St, Dallas, TX",
+      "phone": "(987) 012-3456",
+      "website": "https://www.companyf.com",
+      "image": "companyf.jpg",
+      "membership_level": "Bronze",
+      "other_info": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    },
+    {
+      "name": "Company G",
+      "address": "159 Walnut St, Dallas, TX",
+      "phone": "(159) 357-2468",
+      "website": "https://www.companyg.com",
+      "image": "companyg.jpg",
+      "membership_level": "Gold",
+      "other_info": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    }
+  ]
+}
